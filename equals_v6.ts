@@ -1,6 +1,6 @@
 
-import { areConfusableCharacters } from "./helpers_1.ts";
-import { removeInvisibleCharacters } from "./helpers_2.ts";
+import { areConfusableCharacters } from "./_helper_1.ts";
+import { removeInvisibleCharacters } from "./_helper_2.ts";
 
 const segmenter = new Intl.Segmenter("de", { granularity: "grapheme" });
 

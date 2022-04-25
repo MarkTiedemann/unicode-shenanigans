@@ -1,5 +1,5 @@
 
-import { removeInvisibleCharacters } from "./helpers_2.ts";
+import { removeInvisibleCharacters } from "./_helper_2.ts";
 
 const segmenter = new Intl.Segmenter("de", { granularity: "grapheme" });
 

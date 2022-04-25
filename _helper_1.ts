@@ -1,5 +1,5 @@
 
-const confusableCharacters = await (async function () {
+const confusableCharacters = await (async function() {
 	let map = new Map<string, string>();
 	let text = await Deno.readTextFile("./third_party/confusables.txt");
 	for (let line of text.split("\n")) {
