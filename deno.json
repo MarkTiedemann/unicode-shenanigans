@@ -1,0 +1,5 @@
+{
+	"compilerOptions": {
+		"types": ["./third_party/es2022.intl.d.ts"]
+	}
+}

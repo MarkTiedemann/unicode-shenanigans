@@ -1,0 +1,8 @@
+{
+	"deno.enable": true,
+	"editor.useTabStops": true,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true
+	}
+}
